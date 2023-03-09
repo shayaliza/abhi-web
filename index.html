@@ -1,0 +1,1200 @@
+<html>
+  <head>
+    <!-- <script type="text/javascript" src="bootstrap.js"></script> -->
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap-4.5.3-dist/css/bootstrap.css"
+    /> -->
+    <script type="text/javascript" src="jquery.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function (e) {
+        var b = 2;
+        var c = 2;
+        var d = 2;
+        var e = 2;
+        var f = 2;
+
+        $("#p1").click(function (e) {
+          $("#item").slideToggle(1500);
+        });
+
+        $("#p2").click(function () {
+          if (b == 2) {
+            $("#item2").slideDown();
+            b = 1;
+            $("#item3").slideUp();
+            c = 2;
+            $("#item4").slideUp();
+            d = 2;
+            $("#item5").slideUp();
+            e = 2;
+            $("#item6").slideUp();
+            f = 2;
+          } else if (b == 1) {
+            $("#item2").slideUp();
+            b = 2;
+          }
+        });
+
+        $("#p3").click(function () {
+          if (c == 2) {
+            $("#item3").slideDown();
+            c = 1;
+            $("#item2").slideUp();
+            b = 2;
+            $("#item4").slideUp();
+            d = 2;
+            $("#item5").slideUp();
+            e = 2;
+            $("#item6").slideUp();
+            f = 2;
+          } else if (c == 1) {
+            $("#item3").slideUp();
+            c = 2;
+          }
+        });
+
+        $("#p4").click(function () {
+          if (d == 2) {
+            $("#item4").slideDown();
+            d = 1;
+            $("#item2").slideUp();
+            b = 2;
+            $("#item3").slideUp();
+            c = 2;
+            $("#item5").slideUp();
+            e = 2;
+            $("#item6").slideUp();
+            f = 2;
+          } else if (d == 1) {
+            $("#item4").slideUp();
+            d = 2;
+          }
+        });
+
+        $("#p5").click(function () {
+          if (e == 2) {
+            $("#item5").slideDown();
+            e = 1;
+            $("#item2").slideUp();
+            b = 2;
+            $("#item3").slideUp();
+            c = 2;
+            $("#item4").slideUp();
+            d = 2;
+            $("#item6").slideUp();
+            f = 2;
+          } else if (e == 1) {
+            $("#item5").slideUp();
+            e = 2;
+          }
+        });
+
+        $("#p6").click(function () {
+          if (f == 2) {
+            $("#item6").slideDown();
+            f = 1;
+            $("#item2").slideUp();
+            b = 2;
+            $("#item3").slideUp();
+            c = 2;
+            $("#item5").slideUp();
+            e = 2;
+            $("#item4").slideUp();
+            d = 2;
+          } else if (f == 1) {
+            $("#item6").slideUp();
+            f = 2;
+          }
+        });
+      });
+    </script>
+
+    <style>
+      #mylink {
+        color: #0cf;
+      }
+      #box {
+        width: 1185px;
+        height: 240px;
+        float: left;
+        margin-left: 65px;
+        margin-top: 20px;
+      }
+      #box1 {
+        width: 232px;
+        height: 240px;
+
+        float: left;
+        margin-right: 5px;
+        margin-left: 2px;
+      }
+      #box2 {
+        width: 232px;
+        height: 240px;
+
+        float: left;
+        margin-right: 5px;
+      }
+      #box3 {
+        width: 232px;
+        height: 240px;
+
+        float: left;
+        margin-right: 5px;
+      }
+      #box4 {
+        width: 232px;
+        height: 240px;
+
+        float: left;
+        margin-right: 5px;
+      }
+      #box5 {
+        width: 232px;
+        height: 240px;
+
+        float: left;
+      }
+      #box6 {
+        width: 232px;
+        height: 120px;
+        border: 1px solid #e1f7fd;
+        float: left;
+        border-radius: 15px;
+        background-color: #e8f7ff;
+        text-align: center;
+      }
+      #box7 {
+        width: 232px;
+        height: 120px;
+        border: 1px solid #e1f7fd;
+        float: left;
+        border-radius: 15px;
+        background-color: #e8f7ff;
+        text-align: center;
+      }
+      #box8 {
+        width: 232px;
+        height: 120px;
+        border: 1px solid #e1f7fd;
+        float: left;
+        border-radius: 15px;
+        background-color: #e8f7ff;
+        text-align: center;
+      }
+      #box9 {
+        width: 232px;
+        height: 120px;
+        border: 1px solid #e1f7fd;
+        float: left;
+        border-radius: 15px;
+        background-color: #e8f7ff;
+        text-align: center;
+      }
+      #box10 {
+        width: 232px;
+        height: 120px;
+        border: 1px solid #e1f7fd;
+        float: left;
+        border-radius: 15px;
+        background-color: #e8f7ff;
+        text-align: center;
+      }
+      #first {
+        font-weight: bold;
+        text-align: center;
+      }
+      #second {
+        text-align: center;
+        font-size: 12px;
+      }
+      #thir {
+        color: #fff;
+        background-color: #27bbc2;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid #eefdfd;
+        border-radius: 20px;
+        margin-left: 50px;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 20px;
+        padding-top: 2px;
+      }
+      #thir:hover {
+        background-color: #000;
+      }
+      #vieco {
+        width: 1185px;
+        height: 60px;
+
+        float: left;
+        margin-left: 65px;
+      }
+      #vieco1 {
+        width: 232px;
+        height: 60px;
+
+        float: left;
+        margin-right: 5px;
+        margin-left: 2px;
+      }
+      #vieco2 {
+        width: 232px;
+        height: 60px;
+
+        float: left;
+        margin-right: 5px;
+      }
+      #vieco3 {
+        width: 232px;
+        height: 60px;
+
+        float: left;
+        margin-right: 5px;
+      }
+      #vieco4 {
+        width: 232px;
+        height: 60px;
+
+        float: left;
+        margin-right: 5px;
+      }
+      #vieco5 {
+        width: 232px;
+        height: 60px;
+
+        float: left;
+      }
+      #glos {
+        width: 1185px;
+        height: 240px;
+        float: left;
+        margin-left: 65px;
+        margin-top: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 30px #efefef;
+      }
+      #glos1 {
+        width: 180px;
+        height: 200px;
+        float: right;
+        margin-top: 22px;
+        margin-right: 25px;
+      }
+      #glos2 {
+        width: 900px;
+        height: 240px;
+        float: left;
+      }
+
+      #courfee {
+        color: #000;
+        font-weight: bold;
+        font-size: 178%;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      }
+      #gsp {
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 7px;
+        font-size: 176%;
+        margin-left: 110px;
+        margin-top: 35px;
+      }
+      #gspp {
+        color: #333;
+        font-family: "MS Serif", "New York", serif;
+        text-align: justify;
+        margin-left: 110px;
+      }
+
+      #thirr {
+        color: #fff;
+        background-color: #45c0b1;
+        width: 130px;
+        height: 35px;
+        margin-left: 110px;
+        border: 1px solid #eefdfd;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 20px;
+        padding-top: 4px;
+        text-align: center;
+      }
+      #thirr:hover {
+        background-color: #000;
+      }
+
+      #abog {
+        width: 670px;
+        height: 505px;
+        margin-left: 65px;
+        float: left;
+        margin-top: 20px;
+      }
+
+      #abogg {
+        width: 450px;
+        height: 476px;
+        float: right;
+        margin-top: 40px;
+        margin-right: 80px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px #efefef;
+      }
+      #kbu {
+        color: #333;
+        font-size: 160%;
+        font-weight: bold;
+      }
+      #kbuu {
+        color: #000;
+        font-size: 210%;
+        font-weight: bold;
+      }
+      #kb3 {
+        font-family: "MS Serif", "New York", serif;
+        text-align: justify;
+        font-size: 16px;
+        color: #333;
+      }
+      #abogg1 {
+        width: 214px;
+        height: 237px;
+        float: left;
+        text-align: center;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #efefef;
+      }
+      #abogg2 {
+        width: 214px;
+        height: 237px;
+        text-align: center;
+        float: right;
+        margin-right: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #efefef;
+      }
+      #abogg3 {
+        width: 139px;
+        height: 207px;
+        float: left;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #efefef;
+      }
+      #abogg4 {
+        width: 139px;
+        height: 207px;
+        float: left;
+        text-align: center;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #efefef;
+      }
+      #abogg5 {
+        width: 139px;
+        height: 207px;
+        float: right;
+        text-align: center;
+        margin-right: 5px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #efefef;
+      }
+      #abogg1a {
+        color: #03e9e3;
+        font-size: 230%;
+        font-weight: bold;
+        margin-top: 15px;
+      }
+      #abogglb {
+        font-family: "MS Serif", "New York", serif;
+        text-align: center;
+        font-size: 14px;
+        color: #000;
+        margin-top: -20px;
+      }
+
+      #top {
+        width: 1350px;
+        height: 420px;
+        float: left;
+        background-color: #0a4576;
+      }
+      #top1 {
+        width: 300px;
+        height: 323px;
+        float: left;
+        margin-left: 25px;
+      }
+      #top1a {
+        width: 300px;
+        height: 43px;
+        float: left;
+        margin-top: 17px;
+        font-size: 125%;
+        font-weight: bold;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color: #f4f4f4;
+      }
+      #top1b {
+        width: 300px;
+        height: 43px;
+        float: left;
+        color: #fff;
+        font-size: 135%;
+        font-weight: bold;
+        font-family: "MS Serif", "New York", serif;
+      }
+      #top1c {
+        width: 300px;
+        height: 60px;
+        float: left;
+        color: #ccc;
+        font-size: 14px;
+        font-family: "MS Serif", "New York", serif;
+      }
+      #top1d {
+        width: 300px;
+        height: 73px;
+        float: left;
+      }
+      #top1d1 {
+        width: 300px;
+        height: 23px;
+        float: left;
+        color: #fbfbfb;
+      }
+      #top1d2 {
+        width: 300px;
+        height: 23px;
+        float: left;
+        margin-left: 56px;
+        color: #fbfbfb;
+        font-family: "MS Serif", "New York", serif;
+      }
+      #top1d3 {
+        width: 300px;
+        height: 24px;
+        float: left;
+        margin-left: 56px;
+        color: #fbfbfb;
+        font-family: "MS Serif", "New York", serif;
+      }
+      #top1e {
+        width: 300px;
+        height: 25px;
+        float: left;
+        color: #fbfbfb;
+        font-family: "MS Serif", "New York", serif;
+        margin-top: 10px;
+      }
+      #top1f {
+        width: 300px;
+        height: 70px;
+        float: left;
+        font-family: "MS Serif", "New York", serif;
+        margin-top: 30px;
+        color: #fbfbfb;
+      }
+      #top2 {
+        width: 280px;
+        height: 323px;
+
+        float: left;
+
+        margin-left: 100px;
+        margin-right: 10px;
+      }
+      #top2a {
+        width: 280px;
+        height: 35px;
+        float: left;
+        margin-top: 17px;
+        font-size: 130%;
+        font-weight: bold;
+        font-family: "MS Serif", "New York", serif;
+        color: #f4f4f4;
+      }
+      #top2a1 {
+        width: 280px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top2a2 {
+        width: 280px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top2a3 {
+        width: 280px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top2a4 {
+        width: 280px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top2a5 {
+        width: 280px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top2a6 {
+        width: 280px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top2a7 {
+        width: 280px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top2a8 {
+        width: 280px;
+        height: 32px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+
+      #top3 {
+        width: 300px;
+        height: 380px;
+
+        float: left;
+        margin-right: 10px;
+      }
+      #top3a {
+        width: 300px;
+        height: 35px;
+        float: left;
+        margin-top: 17px;
+        font-size: 130%;
+        font-weight: bold;
+        font-family: "MS Serif", "New York", serif;
+        color: #f4f4f4;
+      }
+
+      #top3a1 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top3a2 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top3a3 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top3a4 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top3a5 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top3a6 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top3a7 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top3a8 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+
+      #top3a9 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+
+      #top3a10 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+
+      #top4 {
+        width: 300px;
+        height: 323px;
+
+        float: left;
+      }
+      #top4a {
+        width: 300px;
+        height: 35px;
+        float: left;
+        margin-top: 17px;
+        font-size: 130%;
+        font-weight: bold;
+        font-family: "MS Serif", "New York", serif;
+        color: #f4f4f4;
+      }
+      #top4a1 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top4a2 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top4a3 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      #top4a4 {
+        width: 300px;
+        height: 34px;
+        float: left;
+
+        font-family: "MS Serif", "New York", serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ccc;
+      }
+      .iconss {
+        display: flex;
+        justify-content: end;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-xl navbar-light"
+      style="background-color: #c7fcd2"
+    >
+      <ul class="navbar-nav ml-5">
+        <span style="margin-top: 9px"
+          ><a href="index.php"
+            ><img src="mt-1027-logo.png" width="71" height="50" /></a
+        ></span>
+        <h1 class="navbar-brand text-dark font-weight-bold"
+          >UpGrad<br /><span style="font-size: 12px"> Institute</span></h1
+        >
+        <span
+          style="
+            text-align: center;
+            color: #000;
+            margin-left: 300px;
+            margin-top: 20px;
+          "
+          >For Our NATIONAL ONLINE Live Courses</span
+        >
+      </ul>
+
+      <span style="color: #000; margin-left: 190px">Follow Us</span>
+      <ul class="navbar-nav iconss">
+        <a href="#"
+          ><img
+            src="twi.png"
+            width="26"
+            height="20"
+            style="margin-right: 15px" /></a
+        ><a href="#"
+          ><img
+            src="fb.png"
+            width="22"
+            height="18"
+            style="margin-right: 15px" /></a
+        ><a href="#"
+          ><img
+            src="insta.png"
+            width="21"
+            height="19"
+            style="margin-right: 15px" /></a
+        ><a href="#"><img src="youtube.png" width="25" height="21" /></a>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark h-25">
+      <a href="#" class="navbar-brand text-primary font-weight-bold"></a>
+
+      <button class="navbar-toggler">
+        <span class="navbar-toggler-icon" id="p1"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="item">
+        <ul class="navbar-nav text-center ml-5">
+          <li class="nav-item"
+            ><a href="#" class="nav-link" id="mylink">Home</a></li
+          >
+          <li class="nav-item"><a href="#" class="nav-link">Course</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Teachers</a></li>
+
+          <li class="nav-item dropdown"
+            ><a href="#" class="nav-link dropdown-toggle" id="p2">Service</a>
+            <div class="dropdown-menu" id="item2">
+              <a href="#" class="dropdown-item">Dedicated Courses</a>
+              <a href="#" class="dropdown-item">Enormous Library</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown"
+            ><a href="#" class="nav-link dropdown-toggle" id="p3"
+              >Employee Zone</a
+            >
+            <div class="dropdown-menu" id="item3">
+              <a href="#" class="dropdown-item">Employee Login</a>
+              <a href="#" class="dropdown-item">Optima Employee Login</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown"
+            ><a href="#" class="nav-link dropdown-toggle" id="p4">Result</a>
+            <div class="dropdown-menu" id="item4">
+              <a href="#" class="dropdown-item">JEE[Advanced]-IIT JEE </a>
+              <a href="#" class="dropdown-item">NEET[UG]/AIPMT</a>
+              <a href="#" class="dropdown-item">AIIMS</a>
+              <a href="#" class="dropdown-item">JEE[MAIN]-AIEEE</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown"
+            ><a href="#" class="nav-link dropdown-toggle" id="p5">Gallery</a>
+            <div class="dropdown-menu" id="item5">
+              <a href="#" class="dropdown-item">PHOTO GALLERY</a>
+              <a href="#" class="dropdown-item">MEDIA BOX</a>
+              <a href="#" class="dropdown-item">ONLINE BOX</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown"
+            ><a href="#" class="nav-link dropdown-toggle" id="p6"
+              >Student Zone</a
+            >
+            <div class="dropdown-menu" id="item6">
+              <a href="#" class="dropdown-item">PERIODIC</a>
+              <a href="#" class="dropdown-item">RESULTS</a>
+            </div>
+          </li>
+
+          <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto mr-5">
+          <li class="nav-item"><a href="#" class="nav-link">Enquiry</a></li>
+          <li class="nav-item"
+            ><a href="studentdata.php" class="nav-link">Apply online</a></li
+          >
+          <li class="nav-item"
+            ><a href="login.php" class="nav-link">Login </a></li
+          >
+        </ul>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="inmo-workshop-pncf.jpg"
+            alt="First slide"
+          />
+        </div>
+
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="nurture-course-2025.jpg"
+            alt="Second slide"
+          />
+        </div>
+
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="Special-Fee-Benefit.jpg"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div
+      class="container-fluid"
+      style="min-height: 1600px; background-color: #fff"
+    >
+      <p id="courfee">Courses & Fee</p>
+      <div id="box">
+        <div id="box1">
+          <div id="box6">
+            <img src="course-icon01.png" width="150" height="120" />
+          </div>
+          <p id="first">JEE (Main+Advanced) IIT-JEE</p>
+          <p id="second"
+            >UpGrad is equipped with the team of top most faculties for
+            preparation of JEE (Main+Advanced)...</p
+          > </div
+        ><!--end of box1-->
+
+        <div id="box2">
+          <div id="box7">
+            <img src="course-icon03.png" width="150" height="120" />
+          </div>
+          <p id="first">Pre-Medical NEET UG</p>
+          <p id="second"
+            >UpGrad has long been distinguished for the best preparatory courses
+            and results for medical entrance examinations...</p
+          > </div
+        ><!--end of box2-->
+
+        <div id="box3">
+          <div id="box8">
+            <img src="course-icon02.png" width="150" height="120" />
+          </div>
+          <p id="first">JEE (Main)</p>
+          <p id="second"
+            >JEE (Main) courses designed by ALLEN are unique and are as per the
+            latest examination pattern...</p
+          > </div
+        ><!--end of box3-->
+
+        <div id="box4">
+          <div id="box9">
+            <img src="course-icon04.png" width="150" height="120" />
+          </div>
+          <p id="first">Pre-Nurture Career Foundation ( 6th to 10th )</p>
+          <p id="second"
+            >Offers courses for various Competitive Exams and Olympiads for the
+            students</p
+          > </div
+        ><!--end of box4-->
+
+        <div id="box5">
+          <div id="box10">
+            <img src="course-icon05.png" width="150" height="120" />
+          </div>
+          <p id="first">Commerce</p>
+          <p id="second"
+            >Commerce courses designed by UpGrad include coaching for formative
+            levels i.e. Standard 11 & 12 as well as for Professional Courses
+            like CA & CS.</p
+          > </div
+        ><!--end of box5--> </div
+      ><!--end of box-->
+      <div id="vieco">
+        <div id="vieco1"><p id="thir">View Courses</p></div
+        ><!-- end of vieco1-->
+        <div id="vieco2"><p id="thir">View Courses</p></div
+        ><!-- end of vieco2-->
+        <div id="vieco3"><p id="thir">View Courses</p></div
+        ><!-- end of vieco3-->
+        <div id="vieco4"><p id="thir">View Courses</p></div
+        ><!-- end of vieco4-->
+        <div id="vieco5"><p id="thir">View Courses</p></div
+        ><!-- end of vieco5--> </div
+      ><!-- end of vieco-->
+
+      <div id="glos">
+        <div id="glos2">
+          <p id="gsp">Global Studies Programme</p>
+          <p id="gspp">
+            UpGrad Global Studies Division (AGSD) is a gateway to International
+            Education with offerings like SAT/ACT/TOEFL/IELTS/AP Tests
+            preparation. We provide classroom as well as online learning with
+            the best study<br />
+            material for standardized tests like SAT, ACT, TOEFL, and IELTS.
+          </p>
+          <p id="thirr">View Courses</p>
+        </div>
+        <div id="glos1"> <img src="white.jpg" width="200" height="200" /> </div
+        ><!--end of glos1--> </div
+      ><!-- end of glos-->
+
+      <div id="abog">
+        <span id="kbu">Know about</span> <span id="kbuu">UpGrad</span><br />
+        <p id="kb3">
+          A Premier Coaching Institute for the preparation of JEE
+          (Main+Advanced), JEE (Main), Pre-Medical (NEET-UG), Pre-Nurture &
+          Career Foundation (Class VI to X, NTSE & Olympiads) and Commerce
+          Education (11th, 12th, CA & CS). The Institute is well regarded for
+          the high quality entrance exam preparation and produces best results
+          year after year. At UpGrad , We focus on building a strong foundation
+          of knowledge and concepts in students for their success and provide an
+          excellent platform for the preparation of competitive exams and board
+          level education. The best academic support and personal care which we
+          provide to the students, helps them meet their career goals and
+          objectives. The core values of Determination, Honesty, Authenticity,
+          Integrity, Devotion, Humanism, Holistic Learning, Social Ethics, and
+          concern for society & environment are all closely interwoven into the
+          fiber of our academic programs. Our highly qualified and most
+          experienced faculties are dedicated and committed to student’s
+          complete success and provide assistive surroundings to contribute to
+          their social, cultural, academic and all-round development.<br /><br />
+          To our students, we impart value-based career education, abundant
+          resources, and individual attention. To the parents, we have a
+          responsibility to nurture ethical and responsible career leadership in
+          the children. To the society, we provide a lifelong connection to
+          ethics and excellence in global leaders.
+        </p> </div
+      ><!--end of abog-->
+      <div id="abogg">
+        <div id="abogg1">
+          <span style="margin-top: 15px"><img src="about-icon01.png" /></span>
+          <h1 id="abogg1a">27 Lac+</h1>
+          <span id="abogglb"
+            >Trusted Chosen in all modes by<br />
+            Students across<br />
+            (Since 1988)</span
+          > </div
+        ><!--end of abogg1-->
+
+        <div id="abogg2">
+          <span style="margin-top: 15px"><img src="about-icon02.png" /></span>
+          <h1 id="abogg1a">2.8 Lac+</h1>
+          <span id="abogglb"
+            >Students studying online & classroom<br />
+            courses<br />
+            (2022-2023)</span
+          > </div
+        ><!--end of abogg2-->
+
+        <div id="abogg3">
+          <img src="about-icon03.png" />
+          <p id="abogg1a">46</p>
+          <p id="abogglb">Study Centers</p> </div
+        ><!--end of abogg3-->
+        <div id="abogg4">
+          <img src="about-icon04.png" />
+          <p id="abogg1a">170+</p>
+          <p id="abogglb">Classroom Campus</p> </div
+        ><!--end of abogg4-->
+        <div id="abogg5">
+          <img src="about-icon05.png" />
+          <p id="abogg1a">180+</p>
+          <p id="abogglb">Test Centers</p> </div
+        ><!--end of abogg5--> </div
+      ><!--end of abogg-->
+
+      <div id="top">
+        <div id="top1">
+          <div id="top1a"> Contact Information </div
+          ><!--end of top1a-->
+          <div id="top1b"> UpGrad Institute Pvt. Ltd. </div
+          ><!--end of top1b-->
+          <div id="top1c">
+            "1ST GRAD" CP-6, Indra Vihar Kota (Rajasthan), India 324005 </div
+          ><!--end of top1c-->
+          <div id="top1d">
+            <div id="top1d1">Phone :+91-948-9847334</div>
+            <div id="top1d2">+91-748-8742494</div>
+            <div id="top1d3">(08:00 AM to 08:00 PM)</div> </div
+          ><!--end of top1d-->
+
+          <div id="top1e"> Email : info@UpGrad.ac.in </div
+          ><!--end of top1e-->
+          <div id="top1f"> Visit : www.UpGrad.in </div> </div
+        ><!--end of top1-->
+
+        <div id="top2">
+          <div id="top2a">About Us</div>
+          <div id="top2a1">About UpGrad</div>
+          <div id="top2a2">Our Inspiration</div>
+          <div id="top2a3">Directors Message</div>
+          <div id="top2a4">UpGrad System</div>
+          <div id="top2a5">Lead With UpGrad</div>
+          <div id="top2a6">Sanskar Mahotsav</div>
+          <div id="top2a7">Toppers Talk</div>
+          <div id="top2a8">UpGrad World Records</div> </div
+        ><!--end of top2-->
+        <div id="top3">
+          <div id="top3a">Courses & Programmes</div>
+          <div id="top3a1">All Competitive Exams (ACE)</div>
+          <div id="top3a2">Commerce</div>
+          <div id="top3a3">JEE (Main+Advanced)</div>
+          <div id="top3a4">Pre-Medical NEET (UG) </div>
+          <div id="top3a5">JEE Main</div>
+          <div id="top3a6">PNCF (Class 6th to 10th)</div>
+          <div id="top3a7">Intellibrain ( HKG to 8th)</div>
+          <div id="top3a8">Online Test Series</div>
+          <div id="top3a9">Distance Learning</div>
+          <div id="top3a10">Workshops</div> </div
+        ><!--end of top3-->
+        <div id="top4">
+          <div id="top4a">Exam Information</div>
+          <div id="top4a1">JEE Main</div>
+          <div id="top4a2">JEE Advanced</div>
+          <div id="top4a3">NEET UG</div>
+          <div id="top4a4">Boards</div> </div
+        ><!--end of top4--> </div
+      ><!--end of top--> </div
+    ><!--end of container-fluid-->
+
+    <div
+      class="container-fluid"
+      style="min-height: 100px; background-color: #555"
+    >
+    </div>
+  </body>
+</html>
